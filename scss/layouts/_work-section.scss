@@ -1,7 +1,7 @@
-.work-section {
+.work {
     padding-top: 0px;
 
-    &-list{
+    &__list{
       margin-top: 50px;
   
       column-gap: 30px;
@@ -10,22 +10,13 @@
   }
   
   
-  .work-list-item {
+  .work__item {
     width: calc((100% - 60px) / 3);
   }
 
-  .works-link {
-    display: block;
-  
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,&:focus{
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-  }
+ 
     
-  .work-subscribe {
+  .work__subscribe {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -35,11 +26,11 @@
   
     color: $white-color;
 
-    &-div {
+    &-wrap {
       position: relative;
     }
     
-    &-back {
+    &-bg {
       position: absolute;
       bottom: 0;
     
@@ -52,4 +43,13 @@
       justify-content: center;
       align-items: center;
     }
+  }
+
+  .work__title{
+    color: $title-color;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
   }
