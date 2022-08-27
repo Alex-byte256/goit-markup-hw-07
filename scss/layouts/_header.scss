@@ -1,6 +1,6 @@
 .header-link.current {
     position: relative;
-    color: var(--link-logo-blue);
+    color: $link-logo-blue;
   }
 
   .logo-header {
@@ -13,20 +13,20 @@
   }
   
   .logo-blue {
-    color: var(--link-logo-blue);
+    color: $link-logo-blue;
   }
   
   .header-link {
-    color: var(--title-color);
+    color: $title-color;
   
     padding-top: 32px;
     padding-bottom: 32px;
+
+    &:hover,&:focus{
+      color: $link-logo-blue;
+    }
   }
   
-  .header-link:hover,
-  .header-link:focus {
-    color: var(--link-logo-blue);
-  }
   
   .header-contact-list-item,
   .header-link {
@@ -44,7 +44,7 @@
   
   .header-contact-list-item:hover,
   .header-contact-list-item:focus {
-    color: var(--link-logo-blue);
+    color: $link-logo-blue;
   }
   
   .contacts-icon {
@@ -98,6 +98,6 @@
     width: 100%;
     height: 4px;
   
-    background: var(--link-logo-blue);
+    background: $link-logo-blue;
     border-radius: 2px;
   }

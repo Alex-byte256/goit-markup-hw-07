@@ -1,5 +1,5 @@
 .hero-section {
-    background-color: var(--f-s-backgroud-color);
+    background-color: $f-s-backgroud-color;
   
     max-width: 1600px;
     height: 600px;
@@ -15,7 +15,7 @@
   }
   
   .hero-title {
-    color: var(--white-color);
+    color: $white-color;
     text-align: center;
   
     width: 696px;
@@ -32,8 +32,8 @@
   .hero-btn {
     display: block;
   
-    color: var(--white-color);
-    background-color: var(--link-logo-blue);
+    color: $white-color;
+    background-color: $link-logo-blue;
   
     border-radius: 4px;
     width: 216px;
@@ -47,14 +47,12 @@
     letter-spacing: 0.06em;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .hero-btn:hover,
-  .hero-btn:focus {
-    background-color: #188ce8;
-  }
-  
 
+    &:hover,&:focus{
+      background-color: #188ce8;
+    }
+  }
+  
   .hero-section {
     padding-top: 200px;
     padding-bottom: 200px;

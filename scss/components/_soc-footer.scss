@@ -18,7 +18,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   
-    color: var(--white-color);
+    color: $white-color;
   }
   
   .soc-footer {
@@ -33,13 +33,13 @@
   
   .soc-link.footer-soc {
     background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--white-color);
+    fill: $white-color;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,&:focus{
+      background-color: $link-logo-blue;
+    }
+
   }
   
-  .soc-link.footer-soc:hover,
-  .soc-link.footer-soc:focus {
-    background-color: var(--link-logo-blue);
-  }
   

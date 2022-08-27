@@ -1,6 +1,6 @@
 .work-section-title,
   .team-section-title {
-    color: var(--title-color);
+    color: $title-color;
   
     font-weight: 700;
     font-size: 36px;
@@ -15,7 +15,7 @@
   }
   
   .team-item-title {
-    color: var(--title-color);
+    color: $title-color;
   
     font-weight: 500;
     font-size: 16px;
